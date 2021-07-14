@@ -27,7 +27,7 @@ const ProfitStats = () => {
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms()
   const block = useBlock()
-  const startBlock = 16498800
+  const startBlock = 16868421
 
   let eggPerBlock = 0
   if (farms && farms[0] && farms[0].eggPerBlock) {

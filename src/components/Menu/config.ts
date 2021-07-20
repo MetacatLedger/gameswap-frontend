@@ -7,40 +7,35 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label: 'Buy StonkZ',
+    label: 'Buy StonkShares',
     icon: 'TradeIcon',
     href: 'https://quickswap.exchange/#/swap?outputCurrency=0x1F1b5ce5fEDb6F27Db51C4d5e885d952f8371257',
   },
   {
-    label: 'Stake Liquidity',
+    label: 'Stake StonkShares',
     icon: 'FarmIcon',
     href: '/farms',
   },
-  {
-    label: 'Stake Tokens',
-    icon: 'PoolIcon',
-    href: '/nests',
-  },
+  // {
+  //   label: 'Stake Tokens',
+  //   icon: 'PoolIcon',
+  //   href: '/nests',
+  // },
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
   {
-    label: 'Earn Dividends',
+    label: 'Stake in Flash Pools',
     icon: 'TicketIcon',
     href: '/profit',
   },
-  {
-    label: 'STONKMOON (Coming Soon)',
-    icon: 'SunIcon',
-    href: '/profit',
-  },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
+   {
+     label: 'Vote for Features',
+     icon: 'NftIcon',
+     href: '/nft',
+   },
   {
     label: 'Road Map',
     icon: 'RoadmapIcon',

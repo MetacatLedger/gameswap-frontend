@@ -9,7 +9,7 @@ const config: MenuEntry[] = [
   {
     label: 'Buy StonkShares',
     icon: 'TradeIcon',
-    href: 'https://quickswap.exchange/#/swap?outputCurrency=0x1F1b5ce5fEDb6F27Db51C4d5e885d952f8371257',
+    href: 'https://quickswap.exchange/#/swap?outputCurrency=0xcd7199ba48a75b8885cd3e916596472d1a5763b7',
   },
   {
     label: 'Stake StonkShares',
@@ -34,7 +34,7 @@ const config: MenuEntry[] = [
    {
      label: 'Vote for Features',
      icon: 'NftIcon',
-     href: '/nft',
+     href: 'https://snapshot.org/#/game-swap.eth',
    },
   {
     label: 'Road Map',
@@ -46,8 +46,8 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'StonkZ Chart',
-        href: 'https://app.polychart.io/explorer/polygon/0x0652CF35852e8B56cda90e5Da23ad32995B4FE96'
+        label: 'StonkS Chart',
+        href: 'https://info.quickswap.exchange/token/0xcd7199ba48a75b8885cd3e916596472d1a5763b7'
       },
       {
         label: 'Github',

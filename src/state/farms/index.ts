@@ -10,6 +10,7 @@ import {
   fetchFarmEarningsLockPeriod,
 } from './fetchFarmUser'
 import { FarmsState, Farm } from '../types'
+import getWMaticPrice from './fetchPrice'
 
 const initialState: FarmsState = { data: [...farmsConfig] }
 
@@ -36,6 +37,12 @@ export const farmsSlice = createSlice({
 
 // Actions
 export const { setFarmsPublicData, setFarmUserData } = farmsSlice.actions
+
+// Get prices
+export const fetchPriceDataAsync = () => async (dispatch) => {
+  const price = await getWMaticPrice();
+  dispatch(price);
+}
 
 // Thunks
 export const fetchFarmsPublicDataAsync = () => async (dispatch) => {

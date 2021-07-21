@@ -30,7 +30,7 @@ export enum QuoteToken {
   'WMATIC' = 'WMATIC',
   'QUICK' = 'QUICK',
   'WETH' = 'WETH',
-  'STONKZ' = 'STONKZ',
+  'STONKS' = 'STONKS',
   'FISH' = 'Fish',
   'IRON' = 'Iron',
   'POLYDOGE' = 'PolyDoge',

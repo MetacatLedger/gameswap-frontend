@@ -4,7 +4,7 @@ const pools: PoolConfig[] = [
    {
     sousId: 2,
     tokenName: 'WMATIC',
-    stakingTokenName: QuoteToken.STONKZ,
+    stakingTokenName: QuoteToken.STONKS,
     stakingTokenAddress: '0x1F1b5ce5fEDb6F27Db51C4d5e885d952f8371257',
     contractAddress: {
       97: '',
@@ -23,7 +23,7 @@ const pools: PoolConfig[] = [
   {
     sousId: 3,
     tokenName: 'WMATIC',
-    stakingTokenName: QuoteToken.STONKZ,
+    stakingTokenName: QuoteToken.STONKS,
     stakingTokenAddress: '0x1F1b5ce5fEDb6F27Db51C4d5e885d952f8371257',
     contractAddress: {
       97: '',
@@ -43,7 +43,7 @@ const pools: PoolConfig[] = [
   {
     sousId: 4,
     tokenName: 'WMATIC',
-    stakingTokenName: QuoteToken.STONKZ,
+    stakingTokenName: QuoteToken.STONKS,
     stakingTokenAddress: '0x1F1b5ce5fEDb6F27Db51C4d5e885d952f8371257',
     contractAddress: {
       97: '',

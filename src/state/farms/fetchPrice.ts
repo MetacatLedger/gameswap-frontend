@@ -50,7 +50,7 @@ const getWMaticPrice = async () => {
       const tokenValue = new BigNumber(tokenBalanceLP).div(new BigNumber(10).pow(tokenDecimals));
       const quoteTokenValue = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(10).pow(quoteTokenDecimals));
       const tokenPriceValue = quoteTokenValue.div(tokenValue);
-      console.log(`WMatic quoteTokenValue: ${quoteTokenValue} / tokenBalanceLP: ${tokenValue} = ${tokenPriceValue}`)
+      // console.log(`WMatic quoteTokenValue: ${quoteTokenValue} / tokenBalanceLP: ${tokenValue} = ${tokenPriceValue}`)
       return (tokenValue.toNumber())
     }
   )
